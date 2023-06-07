@@ -1,0 +1,8 @@
+[03-Nov-2021 15:14:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/cchs78si/public_html/wp-content/themes/DV3/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/cchs78si/public_html/wp-content/themes/DV3/header.php on line 2
+[03-Nov-2021 15:14:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/cchs78si/public_html/wp-content/themes/DV3/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/cchs78si/public_html/wp-content/themes/DV3/index.php on line 2
