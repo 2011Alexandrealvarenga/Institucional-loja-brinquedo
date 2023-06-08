@@ -23,7 +23,13 @@
                 $my_query_banner->the_post(); 
               ?>
                 <div class="carousel-item <?php $c++; if($c == 1) { echo ' active'; } ?>">
-                  <?php the_post_thumbnail('post-thumbnail', array('class' => 'img-fluid ')) ?>
+                  <?php the_post_thumbnail(
+                    'post-thumbnail', 
+                    array(
+                      'class' => 'img-fluid ',
+                      'title' => get_the_title(),
+                      'alt' =>'ir para ' . get_the_title()
+                      )) ?>
                   <div class="carousel-caption d-none d-md-block">                   
                   </div>
                 </div>
@@ -58,7 +64,7 @@
                 <h2 class="card-title">Brinquedão</h2>
               </div>              
               <div class="justify-content-center d-flex">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/brinquedao.jpg" class="card-image-top img-fluid">                
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/brinquedao.jpg" class="card-image-top img-fluid" alt="ir para brinquedao" title="brinquedao">                
               </div>          
               <div class="card-body">
                 <p class="card-text">
@@ -75,7 +81,7 @@
                 <h2 class="card-title">Eletrônicos</h2>
               </div>              
               <div class="justify-content-center d-flex">
-               <img src="<?php bloginfo('template_url'); ?>/assets/img/eletronico.jpg" class="card-image-top img-fluid">
+               <img src="<?php bloginfo('template_url'); ?>/assets/img/eletronico.jpg" class="card-image-top img-fluid" alt="ir para eletronicos" title="eletronicos">
               </div>
               <div class="card-body">
                 <p class="card-text">
@@ -92,7 +98,7 @@
                 <h3 class="card-title">Àrea Baby e Cenografia</h3>
               </div>
               <div class="justify-content-center d-flex">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/kids-play.jpg" class="card-image-top img-fluid">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/kids-play.jpg" class="card-image-top img-fluid" alt="ir para brinquedos para criança" title="brinquedos para criança">
               </div>
               <div class="card-body">
                 <p class="card-text">
@@ -119,7 +125,7 @@
               <h4>Buffet</h4>
             </div>              
             <div class="card-body">
-              <img src="<?php bloginfo('template_url'); ?>/assets/img/icones/self.png" class="card-image-top img-fluid">
+              <img src="<?php bloginfo('template_url'); ?>/assets/img/icones/self.png" class="card-image-top img-fluid" alt="ir para festas e eventos" title="festas e eventos">
             </div>            
             <div class="card-body" id="card-1">                 
               <p>Festas e Eventos</p>
@@ -140,7 +146,7 @@
               <p>Àrea Kids</p>
             </div>
             <div class="card-body">
-             <img src="<?php bloginfo('template_url'); ?>/assets/img/icones/condominio.png" class="card-image-top img-fluid">
+             <img src="<?php bloginfo('template_url'); ?>/assets/img/icones/condominio.png" class="card-image-top img-fluid" alt="ir para festa em condominio" title="festa em condominio">
             </div>
           </div>
         </div>
@@ -150,7 +156,7 @@
               <h4>Parques</h4>
             </div>            
             <div class="card-body">
-              <img src="<?php bloginfo('template_url'); ?>/assets/img/icones/parque.png" class="card-image-top img-fluid">
+              <img src="<?php bloginfo('template_url'); ?>/assets/img/icones/parque.png" class="card-image-top img-fluid" alt="ir para brinquedos para parque" title="brinquedos para parque">
             </div>
             <div class="card-body" id="card-3">
               <p>Brinquedotecas</p>
@@ -170,7 +176,7 @@
               <p>Bares</p>
             </div>
             <div class="card-body">
-             <img src="<?php bloginfo('template_url'); ?>/assets/img/icones/restaurante.png" class="card-image-top img-fluid">
+             <img src="<?php bloginfo('template_url'); ?>/assets/img/icones/restaurante.png" class="card-image-top img-fluid" alt="ir para brinquedos para restaurantes" title="brinquedos para restaurantes">
             </div>
           </div>
         </div>

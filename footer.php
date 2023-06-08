@@ -4,7 +4,7 @@
     <div class="row pt-3">
       <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 pt-2 contato" >
           <a href="<?php bloginfo('home'); ?> ">
-            <img src="<?php bloginfo('template_url'); ?>/assets/img/logo/proj2.png" alt="">
+            <img src="<?php bloginfo('template_url'); ?>/assets/img/logo/proj2.png" alt="ir para logo diverbrink" title="logo diverbrink">
           </a>
         <div class="row linha-telefone pt-4 pb-2">
           <div class="icone-telefone">
