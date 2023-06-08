@@ -3,8 +3,8 @@
 <head>  
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta <?php bloginfo('charset'); ?>>
-  <title>DiverBrink | Entre em contato e conheça nossos produtos por encomenda.</title>
-  <meta name="description" content="Brinquedos, Eletrônicos, obstaculos feitos por encomenda." />
+  <title>DiverBrink | Brinquedos por encomenda.</title>
+  <meta name="description" content="Diverbrink | Brinquedos, Eletrônicos, obstaculos feitos por encomenda." />
   <?php wp_head(); ?>
 </head>
 <body>
