@@ -7,7 +7,7 @@
   <meta property="og:title" content="DiverBrink | Brinquedos por encomenda." />
   <meta name="description" content="DiverBrink | Brinquedos, Eletrônicos, obstaculos feitos por encomenda." />
   <meta property="og:description" content="DiverBrink | Brinquedos, Eletrônicos, obstaculos feitos por encomenda." />
-
+  <link href="<?php bloginfo('template_url'); ?>/assets/img/favicon.png" rel="shortcut icon">
   <?php wp_head(); ?>
 </head>
 <body>

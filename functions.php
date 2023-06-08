@@ -13,8 +13,7 @@ wp_enqueue_style( 'font-titulo', 'https://fonts.googleapis.com/css2?family=Baloo
 wp_enqueue_style( 'font-p', 'https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap', array(), 
 '1.0', 'all' );
 
-wp_enqueue_style( 'favicon', get_template_directory_uri() . '/assets/img/favicon.png', array(), 
-'1.0', 'all' );
+// wp_enqueue_style( 'favicon', get_template_directory_uri() . '/assets/img/favicon.png', array(), '1.0', 'all' );
 wp_enqueue_style( 'fontello', get_template_directory_uri() . '/assets/css/fontello.css', array(), 
 '1.0', 'all' );
 wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.css', array(), 
