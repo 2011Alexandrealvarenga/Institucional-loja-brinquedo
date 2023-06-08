@@ -36,11 +36,11 @@
               <?php endwhile; endif; ?>
               <?php wp_reset_query(); ?>
             </div>
-            <a class="carousel-control-prev" href="#carouselBSWP" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#carouselBSWP" role="button" data-slide="prev"  alt="ir para anterior" title="anterior">
               <span class="carousel-control-prev-icon"></span>
               <span class="sr-only">Anterior</span>
             </a>
-            <a class="carousel-control-next" href="#carouselBSWP" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carouselBSWP" role="button" data-slide="next" alt="ir para proximo" title="proximo">
               <span class="carousel-control-next-icon"></span>
               <span class="sr-only">Próximo</span>
             </a>          
@@ -59,7 +59,7 @@
       <div class="card-group ">
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 justify-content-center pt-5 card-item">
           <div class="card">
-            <a href="https://diverbrink.com.br/brinquedao/">
+            <a href="https://diverbrink.com.br/brinquedao/"  alt="ir para brinquedao" title="brinquedao">
               <div class="titulo">
                 <h2 class="card-title">Brinquedão</h2>
               </div>              
@@ -76,7 +76,7 @@
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 justify-content-center pt-5 card-item">
           <div class="card">
-            <a href="https://diverbrink.com.br/eletronico/ ">
+            <a href="https://diverbrink.com.br/eletronico/ "  alt="ir para eletronico" title="eletronico">
               <div class="titulo">
                 <h2 class="card-title">Eletrônicos</h2>
               </div>              
@@ -93,7 +93,7 @@
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 justify-content-center pt-5 card-item">
           <div class="card">
-            <a href="https://diverbrink.com.br/obstaculo/">
+            <a href="https://diverbrink.com.br/obstaculo/" alt="ir para obstaculos" title="obstaculos">
               <div class="titulo">
                 <h3 class="card-title">Àrea Baby e Cenografia</h3>
               </div>

@@ -3,7 +3,7 @@
   <div class="container-fluid">
     <div class="row pt-3">
       <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 pt-2 contato" >
-          <a href="<?php bloginfo('home'); ?> ">
+          <a href="<?php bloginfo('home'); ?> " alt="ir para logo diverbrink" title="logo diverbrink">
             <img src="<?php bloginfo('template_url'); ?>/assets/img/logo/proj2.png" alt="ir para logo diverbrink" title="logo diverbrink">
           </a>
         <div class="row linha-telefone pt-4 pb-2">
@@ -47,24 +47,24 @@
         <nav class="pt-4">
           <ul>
             <li>
-              <a href="https://www.facebook.com/DiverBrinkbrinquedos/" target="_blank">
+              <a href="https://www.facebook.com/DiverBrinkbrinquedos/" target="_blank" alt="ir para facebook" title="facebook">
                 <i class="icon-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.youtube.com/user/diverbrink" target="_blank">
+              <a href="https://www.youtube.com/user/diverbrink" target="_blank" alt="ir para youtube" title="youtube">
                  <i class="icon-youtube"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/diverbrinkbrinquedos/" target="_blank">
+              <a href="https://www.instagram.com/diverbrinkbrinquedos/" target="_blank" alt="ir para instagram" title="instagram">
                  <i class="icon-instagram"></i>
               </a>
             </li>
           </ul>
         </nav>        
       </div>
-     <a href="https://api.whatsapp.com/send?phone=551133843939&text=Ol%C3%A1,%20Eu%20visitei%20o%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="float" target="_blank">
+     <a href="https://api.whatsapp.com/send?phone=551133843939&text=Ol%C3%A1,%20Eu%20visitei%20o%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="float" target="_blank"  alt="ir para contato whatsapp" title="whatsapp">
         <i class="fa fa-whatsapp my-float"></i>
       </a>    
   </div>

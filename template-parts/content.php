@@ -1,6 +1,6 @@
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 "> 
   <div class="card">                
-    <a href="<?php the_permalink(); ?>">
+    <a href="<?php the_permalink(); ?>" alt="ir para <?php the_title(); ?>" title="<?php the_title(); ?>">
       <div class="card-body ">
           <?php the_post_thumbnail('post-thumbnail', array('class' => 'img-fluid img-responsive')); ?>
       </div>
