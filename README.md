@@ -1,4 +1,3 @@
-# Institucional-loja-brinquedo
-Loja de brinquedos
+# Loja de brinquedos
 
 <img src="assets/img/description.PNG">
