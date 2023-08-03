@@ -5,8 +5,9 @@
     <div class="row">
         <div id="carouselBSWP" class="carousel slide" data-ride="carousel">
           <div class="fazemos">
-            <h2>Brinquedos para festa Infantil</h2>
+            <h1 class="title">Brinquedos para festa Infantil</h1>
           </div>
+
             <div class="carousel-inner">             
               <?php 
               // args

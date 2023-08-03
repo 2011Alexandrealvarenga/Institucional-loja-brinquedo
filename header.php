@@ -16,7 +16,7 @@
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5">
         <div class="logo-img">
-          <a href="<?php bloginfo('home'); ?> " alt="" title="">
+          <a href="<?php bloginfo('home'); ?> " alt="ir para logo diverbrink" title="logo diverbrink">
             <img src="<?php bloginfo('template_url'); ?>/assets/img/logo/proj2.png" alt="ir para logo diverbrink" title="logo diverbrink">          
           </a>
         </div>
