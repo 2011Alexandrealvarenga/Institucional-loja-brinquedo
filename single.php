@@ -40,13 +40,9 @@
          <ul>            
             <li>
               <div class="card"> 
-                <a href="<?php the_permalink() ?>" alt="ir para <?php the_title(); ?>" title="<?php the_title(); ?>">
+                <a href="<?php the_permalink() ?>" >
                   <div class="card-body ">
-                    <?php the_post_thumbnail('produtos-recentes', array(
-                      'class' => 'img-fluid',
-                      'title' => get_the_title(),
-                      'alt' =>'ir para ' . get_the_title()
-                      )); ?>
+                    <?php the_post_thumbnail('produtos-recentes', array('class' => 'img-fluid')); ?>
                   </div>
                   <div class="card-text">
                     <h6>

@@ -25,18 +25,13 @@
         <div class="card">                
 
             <div class="card-body ">
-              <a href="<?php the_permalink(); ?>"  alt="ir para <?php the_title(); ?>" title="<?php the_title(); ?>">
-                <?php the_post_thumbnail('post-thumbnail', 
-                array(
-                  'class' => 'img-fluid img-responsive',
-                  'title' => get_the_title(),
-                  'alt' =>'ir para ' . get_the_title()
-                  )); ?>
+              <a href="<?php the_permalink(); ?>">
+                <?php the_post_thumbnail('post-thumbnail', array('class' => 'img-fluid img-responsive')); ?>
                 
               </a>
             </div>
             <div class="card-text">
-              <a href="<?php the_permalink(); ?>" alt="ir para <?php the_title(); ?>" title="<?php the_title(); ?>">
+              <a href="<?php the_permalink(); ?>">
             
                   <h3 class="h3_titulo">
                     <?php the_title(); ?>

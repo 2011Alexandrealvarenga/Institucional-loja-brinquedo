@@ -10,15 +10,12 @@
 
             <div class="carousel-inner">             
               <?php 
-              // args
               $my_args_banner = array(
                 'post_type' => 'banners',                
               );
-              // query
               $my_query_banner = new WP_Query ( $my_args_banner );
               ?>
               <?php if( $my_query_banner->have_posts()) : 
-                $banner = $banners[0];
                 $c = 0;
                 while( $my_query_banner->have_posts() ) : 
                 $my_query_banner->the_post(); 
@@ -56,7 +53,6 @@
           <h3 class="h3_titulo">Nosso Produtos</h3>
         </div>        
       </div>
-      <!-- LOOP DE PRODUTOS -->
       <div class="card-group ">
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 justify-content-center pt-5 card-item">
           <div class="card">
@@ -68,9 +64,7 @@
                 <img src="<?php bloginfo('template_url'); ?>/assets/img/brinquedao.jpg" class="card-image-top img-fluid" alt="ir para brinquedao" title="brinquedao">                
               </div>          
               <div class="card-body">
-                <p class="card-text">
-                  Desenvolvido e Fabricado especialmente para seu espaço
-                </p>
+                <p class="card-text">Desenvolvido e Fabricado especialmente para seu espaço</p>
               </div>
             </a>
           </div> 
