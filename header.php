@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta <?php bloginfo('charset'); ?>>
   <title>DiverBrink | Brinquedos por encomenda.</title>
+  <meta name="keywords" description="brinquedos para festa infantil, brinquedão, kids-play, tombo legal">
   <meta property="og:title" content="DiverBrink | Brinquedos por encomenda." />
   <meta name="description" content="DiverBrink | Brinquedos, Eletrônicos, obstaculos feitos por encomenda." />
   <meta property="og:description" content="DiverBrink | Brinquedos, Eletrônicos, obstaculos feitos por encomenda." />

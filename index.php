@@ -53,6 +53,13 @@
           <h3 class="h3_titulo">Nosso Produtos</h3>
         </div>        
       </div>
+      <div class="col">
+        <div class="content">
+        <strong></strong>
+          <h4 class="title">Conheça mais sobre nós</h4>
+          <p>Nós Diverbrink fabricante de brinquedos somos especializados em <strong>Brinquedão</strong>. O brinquedão é um<strong> playground infantil</strong> para áreas internas, especialmente pensadas para <strong>buffet,salão de festas, brinquedotecas, escolas, condomínios e muito mais.</strong></p>
+        </div>
+      </div>
       <div class="card-group ">
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 justify-content-center pt-5 card-item">
           <div class="card">
@@ -103,10 +110,21 @@
             </a>
           </div>
         </div>      
+
       </div>
     </div>
   </div>
 </div>
+<section class="descricao-diverbrink">
+  <div class="container ">
+    <div class="col">
+      <div class="content">
+        <h4 class="title">Fabricação dos brinquedos Infantil:</h4>  
+        <p>Como <strong>fabricante de Brinquedos</strong> atendemos diversos processos necessários para garantir um brinquedo seguro, bonito, resistente e com um custo acessível para qualquer empreendimento. <strong> A 15 anos</strong> desempenhamos um trabalho com muito profissionalismo, responsábilidade e cuidado, oferecendo assim produtos de ótima qualidade e um atendimento especial antes e depois da venda. Por isso você pode contar conosco para construção desse brinquedo infantil e muitos outros para seu ambiente.Entre em contato e solicite seu projeto e orçamento grátis</p>
+      </div>
+    </div>
+  </div>
+</section>
 <div class="container-fluid areas-atendidas ">
   <div class="row">
     <div class="col">
