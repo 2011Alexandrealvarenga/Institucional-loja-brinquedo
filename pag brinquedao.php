@@ -19,39 +19,5 @@
     </div>
   </div>
 </div><!--brinquedao -->
-<div class="container conteudo-categoria-brinquedao pb-5">
-  <?php 
-    $paged = (get_query_var('paged')) ? absint(get_query_var('paged')):1;
-    // args
-    $my_args = array(
-      'post_type' => 'post',
-      'category_name' => 'brinquedao',          
-      'paged' => $paged,
-    );  
-   
-    // query
-    $the_query = new WP_Query ( $my_args );
-  ?> 
-  <div class="card-group mt-4 ">
-    <?php if($the_query->have_posts()): ?>
-      <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>  
-        <?php get_template_part('template-parts/content'); ?>
-          
-      <?php endwhile; ?>
-      <?php wp_reset_postdata(); ?>
-    <?php else : ?>
-    <?php endif; ?>
-  </div>
-  <div class="paginacao">
-    <?php           
-          $big = 999999;
-          echo paginate_links(array(
-            'base' => str_replace($big, '%#%', esc_url(get_pagenum_link($big)) ),
-            'format' => '?paged=%#%',
-            'current' => max(1, get_query_var('paged')),
-            'total' => $the_query->max_num_pages,
-          ));
-  ?>
-  </div>
-</div>
+
 <?php get_footer(); ?>
