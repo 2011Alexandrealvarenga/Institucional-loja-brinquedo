@@ -4,8 +4,13 @@ function dvbrink_css_enqueue() {
   if(is_home() || is_front_page() || is_page('inicio')){    
     wp_enqueue_style( 'home', get_template_directory_uri() . '/assets/css/home.css', array(), '1.1', 'all');
   }
+  if(is_404()){    
+    wp_enqueue_style( 'page_404', get_template_directory_uri() . '/assets/css/404.css', array(), '1.1', 'all');
+  }
+
 } 
 add_action( 'wp_enqueue_scripts', 'dvbrink_css_enqueue');
+
 function load_scripts(){
   wp_enqueue_script( 'bootstrap-js', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js', array( 'jquery' ), '4.0.0', true );
   

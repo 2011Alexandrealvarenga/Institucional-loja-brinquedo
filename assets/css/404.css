@@ -1,0 +1,10 @@
+.section_404 .content{
+  height: 60vh;
+}
+.section_404 .content {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
